@@ -1,0 +1,237 @@
+body{
+  background-image: url('../images/Group_2.png'); 
+}
+
+.user-logged-image{
+  text-align: right;
+  padding-top: 4%;
+  padding-right:4% ;
+}
+
+.regalix-logo{
+  text-align: center;
+  padding-top:2% ;
+}
+
+.main-heading{
+ padding-top: 3%;
+ text-align: center;
+ position: relative;
+ 
+}
+
+.heading-text{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.month-date{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: "Inter Medium";
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-right: 10%;
+  position: absolute;
+  right: 0;
+  top: 48px;
+
+}
+.month{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.date{
+  font-size: 40px;
+}
+.description-paragraph{
+  text-align: center;
+  opacity: 0.8;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.slider{
+  margin: 30px;
+}
+.slider-cards{
+  position: relative;
+  color: white;
+  background-repeat:no-repeat;
+  border-radius: 20px;
+  width: 100%;
+}
+.s-c-1{
+  background-image: url("../images/01.png");
+}
+.s-c-2{
+  background-image: url("../images/02.png");
+}
+.s-c-3{
+  background-image: url("../images/03.png");
+}
+.s-c-4{
+  background-image: url("../images/04.png");
+}
+.s-c-5{
+  background-image: url("../images/05.png");
+}
+.centered {
+  width: 168px;
+  padding-left: 5%;
+  padding-top: 35%;
+  color: #ffffff;
+  font-family: "Inter Semi Bold";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+
+}
+.cards-para{
+  width: 244px;
+  padding-left: 5%;
+  padding-top: 5%;
+  color: #ffffff;
+  font-family: "Inter Medium";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  left:16px;
+  top:188px;
+  right: 16px;
+  bottom: 142px;
+}
+.top-right-live{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 182px;
+  top: 16px;
+  right: 16px;
+  width: 78px;
+  height: 24px;
+  border-radius: 2px;
+  background-color: #000000;
+
+}
+.red-dot{
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left:8px;
+  top:8px;
+  right:62px ;
+  bottom:8px ;
+}
+.live-now-text{
+  position: absolute;
+  top:6px;
+  left: 20px;
+  right: 8px;
+  bottom: 6px;
+  width: 50px;
+  height: 12px;
+  color: #ffffff;
+  font-family: "Inter Semi Bold";
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap ;
+  text-transform: uppercase;
+}
+.users{
+  width: 168px;
+  padding-left: 5%;
+  padding-top: 10%;
+
+}
+
+.join-session-button{
+padding: 15px;
+margin: 20px;
+margin-top: 20px;
+margin-right: 40px;
+text-align: center;
+border-radius: 10px;
+background-color: #ee3465;
+color: #ffffff;
+font-family: "Inter Semi Bold";
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-transform: uppercase;
+}
+
+.stream-button{
+  padding: 15px;
+  margin: 20px;
+  margin-top: 20px;
+  margin-right: 40px;
+  display: flex;
+  border-radius: 10px;
+  background-color: #ffab00;
+  color: #000000;
+  font-family: "Inter Semi Bold";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.radio-outline-icon{
+  text-align: center;
+
+}
+.stream-button-text{
+  padding-left: 30px;
+}
+
+.top-right {
+  position: absolute;
+  top: 19px;
+  left: 199px;
+  right: 16px;
+  bottom: 368px;
+  width: 61px;
+  height: 24px;
+  border-radius: 2px;
+  background-color: #000000;
+}
+
+.time-text{
+  position: absolute;
+  left:8px;
+  top:6px;
+  right: 8px;
+  bottom: 6px;
+  width: 45px;
+  height: 12px;
+  color: #ffffff;
+  font-family: "Inter Semi Bold";
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap ;
+
+}
+.wach-now-button{
+padding: 15px;
+margin: 20px;
+margin-top: 20px;
+margin-right: 40px;
+text-align: center;
+border-radius: 10px;
+background-color:#345dee;
+color: #ffffff;
+font-family: "Inter Semi Bold";
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-transform: uppercase;
+
+}
