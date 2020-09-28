@@ -61,13 +61,13 @@ body{
 
 .slider{
   margin: 30px;
+  margin-top: 10%;
 }
 .slider-cards{
   position: relative;
   color: white;
   background-repeat:no-repeat;
   border-radius: 20px;
-  width: 100%;
 }
 .s-c-1{
   background-image: url("../images/01.png");
@@ -170,11 +170,12 @@ text-transform: uppercase;
 }
 
 .stream-button{
+  display: flex;
   padding: 15px;
   margin: 20px;
   margin-top: 20px;
   margin-right: 40px;
-  display: flex;
+  text-align: center;
   border-radius: 10px;
   background-color: #ffab00;
   color: #000000;
@@ -184,11 +185,7 @@ text-transform: uppercase;
   line-height: 20px;
 }
 .radio-outline-icon{
-  text-align: center;
-
-}
-.stream-button-text{
-  padding-left: 30px;
+  padding-right: 20px;
 }
 
 .top-right {
