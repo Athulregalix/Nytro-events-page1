@@ -5,17 +5,16 @@ body {
 }
 .user-logged-image {
   text-align: right;
-  padding-top: 4%;
-  padding-right: 4%;
+  margin-right: 64px;
+  margin-top: 48px;
 }
 .regalix-logo {
   text-align: center;
-  padding-top: 2%;
+  margin-top: 80px;
 }
 .main-heading {
-  padding-top: 3%;
-  text-align: center;
   position: relative;
+  margin-top: 42px;
 }
 .heading-text {
   text-align: center;
@@ -29,15 +28,16 @@ body {
   text-align: right;
   display: flex;
   flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 121px;
   color: #ffffff;
   font-family: "Inter Medium";
   font-weight: 500;
   text-transform: uppercase;
-  padding-right: 10%;
-  position: absolute;
-  right: 0;
-  top: 48px;
 }
+
 .month {
   font-size: 20px;
   text-transform: uppercase;
@@ -47,6 +47,7 @@ body {
 }
 .description-paragraph {
   text-align: center;
+  margin-top: 25px;
   opacity: 0.8;
   color: #ffffff;
   font-family: "Inter", sans-serif;
@@ -56,7 +57,7 @@ body {
 }
 
 .slider {
-  margin: 3%;
+  margin: 5%;
 }
 .slick-prev:before,
 .slick-next:before {
@@ -68,7 +69,7 @@ body {
 .slider-cards {
   position: relative;
   color: white;
-  margin: 10px;
+  margin: 15px;
 }
 .images {
   width: 100%;
@@ -80,14 +81,17 @@ body {
 .slider-header {
   position: absolute;
   color: white;
-  font-weight: bolder;
   top: 20%;
-  left: 10%;
+  left: 16px;
+  font-family: "Inter Semi Bold";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
 }
 .slider-para {
   position: absolute;
-  top: 45%;
-  left: 10%;
+  top: 40%;
+  left: 16px;
   color: #ffffff;
   font-family: "Inter Medium";
   font-size: 14px;
@@ -98,10 +102,11 @@ body {
 .top-right-live {
   position: absolute;
   text-align: center;
-  top: 5%;
-  right: 5%;
-  margin: 2px;
-  padding: 8px 12px 8px 12px;
+  top: 0;
+  right: 0;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding: 5px 8px 5px 8px;
   border-radius: 2px;
   background-color: #000000;
   color: #ffffff;
@@ -112,7 +117,7 @@ body {
   text-transform: uppercase;
 }
 .live-now-text {
-  padding-left: 1px;
+  padding-left: 5px;
 }
 .red-dot {
   position: absolute;
@@ -122,10 +127,11 @@ body {
 .top-right {
   position: absolute;
   text-align: center;
-  top: 5%;
-  right: 5%;
-  margin: 2px;
-  padding: 8px 12px 8px 12px;
+  top: 0;
+  right: 0;
+  margin-top: 5%;
+  margin-right: 5%;
+  padding: 5px 10px 5px 10px;
   border-radius: 2px;
   background-color: #000000;
   color: #ffffff;
@@ -138,7 +144,7 @@ body {
 .users-icon {
   position: absolute;
   top: 70%;
-  left: 10%;
+  left: 16px;
 }
 .user-container {
   position: relative;
@@ -176,7 +182,9 @@ body {
 }
 .button-live {
   position: absolute;
-  top: 90%;
+  bottom: 0;
+  padding-top: 15px;
+  bottom: 0;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 10px;
@@ -186,62 +194,38 @@ body {
   font-weight: 600;
   line-height: 20px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .join-button {
   background-color: #ee3465;
   color: #ffffff;
-  padding: 12px 50px 12px 50px;
+  padding: 12px 70px 12px 70px;
+  /* text-align: center; */
 }
 .watch-button {
   background-color: #345dee;
   color: #ffffff;
-  padding: 12px 50px 12px 50px;
+  padding: 12px 70px 12px 70px;
 }
 .stream-button {
   background-color: #ffab00;
   color: #000000;
-  padding: 15px;
+  padding: 12px;
   display: flex;
 }
 .btn-text {
-  margin-left: 5px;
   white-space: nowrap;
 }
 .btn-image {
   padding-top: 2px;
+  padding-right: 5px;
 }
-/* pop up css */
 
-.lightbox {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.8);
-}
-.lightbox:target {
-  outline: none;
-  display: block;
-}
-#videoModal {
-  margin-top: 50px;
-  position: relative;
-}
-#videoModal .close {
-  background: gray;
-  color: #fff;
-  font-size: 24px;
-  margin: 0;
-  opacity: 1;
+/* pop up start */
+.mfp-close-btn-in .mfp-close {
+  color: white !important;
   position: absolute;
-  right: 5%;
-  text-shadow: none;
-  top: 0;
-  width: 38px;
+  left: 90%;
 }
-/* end of pop up css */
+/* pop up end */

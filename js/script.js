@@ -30,3 +30,8 @@ $(".slider").slick({
     },
   ],
 });
+
+$("#videoLink").magnificPopup({
+  type: "inline",
+  midClick: true,
+});
