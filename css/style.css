@@ -10,11 +10,9 @@ body {
 }
 .regalix-logo {
   text-align: center;
-  margin-top: 80px;
 }
 .main-heading {
   position: relative;
-  margin-top: 42px;
 }
 .heading-text {
   text-align: center;
@@ -33,7 +31,7 @@ body {
   top: 0;
   margin-right: 121px;
   color: #ffffff;
-  font-family: "Inter Medium";
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -48,6 +46,8 @@ body {
 .description-paragraph {
   text-align: center;
   margin-top: 25px;
+}
+.des-paragraph {
   opacity: 0.8;
   color: #ffffff;
   font-family: "Inter", sans-serif;
@@ -84,7 +84,7 @@ body {
   color: white;
   top: 20%;
   left: 16px;
-  font-family: "Inter Semi Bold";
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
@@ -94,10 +94,11 @@ body {
   top: 40%;
   left: 16px;
   color: #ffffff;
-  font-family: "Inter Medium";
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+  margin-right: 8px;
 }
 
 .top-right-live {
@@ -117,7 +118,7 @@ body {
 .live-now-text {
   padding-left: 5px;
   color: #ffffff;
-  font-family: "Inter Semi Bold";
+  font-family: "Inter", sans-serif;
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
@@ -138,7 +139,7 @@ body {
   border-radius: 2px;
   background-color: #000000;
   color: #ffffff;
-  font-family: "Inter Semi Bold";
+  font-family: "Inter", sans-serif;
   font-size: 10px;
   font-weight: 600;
   white-space: nowrap;
@@ -178,7 +179,7 @@ body {
   padding-top: 10px;
   white-space: nowrap;
   color: #ffffff;
-  font-family: "Inter Medium";
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -190,7 +191,7 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 10px;
   border: none;
-  font-family: "Inter Semi Bold";
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
