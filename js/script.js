@@ -6,26 +6,35 @@ $(".slider").slick({
   slidesToScroll: 4,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1200,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
-        infinite: true,
+        dots: false,
+      },
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
         dots: false,
       },
     },
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 500,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        dots: false,
       },
     },
   ],
