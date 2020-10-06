@@ -1,5 +1,5 @@
 body {
-  background-image: url("../images/Group_2.png");
+  background-image: url("../images/bg.png");
   /* background-size:contain ;
   background-repeat:no-repeat ; */
 }
@@ -63,14 +63,17 @@ body {
 .slick-next:before {
   color: black !important;
   background: white;
-  padding: 5px;
+  padding: 2px;
   border-radius: 20px;
+}
+.slick-slider .slick-list {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .slider-cards {
   position: relative;
   color: white;
   margin: 15px;
-  width: 276px;
 }
 .images {
   width: 100%;
