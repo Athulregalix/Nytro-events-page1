@@ -1,7 +1,7 @@
 body {
   background-image: url("../images/bg.png");
-  /* background-size:contain ;
-  background-repeat:no-repeat ; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .user-logged-image {
   text-align: right;
@@ -61,13 +61,7 @@ body {
 .slider {
   margin: 5%;
 }
-.slick-prev:before,
-.slick-next:before {
-  color: black !important;
-  background: white;
-  padding: 2px;
-  border-radius: 20px;
-}
+
 .slick-slider .slick-list {
   padding-top: 15px;
   padding-bottom: 15px;

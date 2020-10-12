@@ -40,6 +40,8 @@ $(".slider").slick({
   ],
 });
 
+$(".slider").slick("slickGoTo", 5);
+
 $("#videoLink").magnificPopup({
   type: "inline",
   midClick: true,
