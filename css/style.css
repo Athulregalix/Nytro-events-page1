@@ -8,6 +8,9 @@ body {
   margin-right: 64px;
   margin-top: 48px;
 }
+.user-image{
+   clip-path: circle();
+}
 .regalix-logo {
   text-align: center;
 }
@@ -98,10 +101,16 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 500;
+  width: 230px;
+  height: 100px;
   font-style: normal;
+  word-wrap: break-word;
   letter-spacing: normal;
   line-height: 20px;
   margin-right: 7px;
+  --max-lines: 4;
+  max-height: calc(var(--lh) * var(--max-lines));
+  overflow: hidden;
 }
 
 .top-right-live {

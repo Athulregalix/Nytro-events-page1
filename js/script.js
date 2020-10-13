@@ -40,7 +40,10 @@ $(".slider").slick({
   ],
 });
 
-$(".slider").slick("slickGoTo", 5);
+
+function liveSlider(sliderIndex) {
+  $(".slider").slick("slickGoTo", sliderIndex);
+}
 
 $("#videoLink").magnificPopup({
   type: "inline",
